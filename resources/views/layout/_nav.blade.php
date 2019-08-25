@@ -1,17 +1,26 @@
 <!-- /.navbar -->
 
+<section class="bg-white">
+        <div class="container-fluid">
+            <div class="d-flex mb-3">
+              {{-- <div class="mr-auto p-2 ">Flex item</div> --}}
+              <div class="p-2 ml-auto "><small><a href="#" class="text-dark"><i class="mr-1 fa fa-map-marker"></i>You are in Cengkareng.</a></small></div>
+              {{-- <div class="p-2 ">Flex item</div> --}}
+            </div>
+        </div>
+    </section>
 
-<nav class="navbar navbar-expand-lg bg-white navbar-dark  py-2 bb-1" style="top:0px;">
-    <div class="container-fluid px-lg-8">
+<nav class="navbar navbar-expand-lg bg-white navbar-dark  py-2 bb-1" style="top:50px;">
+    <div class="container-fluid ">
 
-        <div class="navbar-left mr-4">
+        <div class="navbar-left">
             <button class="navbar-toggler" type="button">☰</button>
             <a class="navbar-brand" href="#">
                 <img class="logo-dark"
-                    src="https://s3.ap-southeast-1.amazonaws.com/ncommerce-assets/ncommapps_assets/ncommcust/hawkeyefightwear.com/logo/855079963_1521797729_logoweb3x.png"
-                    alt="logo">
+                    src="{{asset('assets/logo.png')}}"
+                    alt="logo" style="margin-top:-30px;">
                 <img class="logo-light"
-                    src="https://s3.ap-southeast-1.amazonaws.com/ncommerce-assets/ncommapps_assets/ncommcust/hawkeyefightwear.com/logo/855079963_1521797729_logoweb3x.png"
+                    src="{{asset('assets/logo.png')}}"
                     alt="logo">
             </a>
         </div>

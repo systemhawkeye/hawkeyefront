@@ -24,7 +24,8 @@ $cyan:                            #17a2b8;
 
 // Context colors
 $color-primary:                   #8E703C;
-$color-secondary:                 #3E1F00;
+$color-secondary:                 #e9ecf0;
+// $color-secondary:                 #3E1F00;
 $color-success:                   $green;
 $color-info:                      $purple;
 $color-warning:                   $yellow;
@@ -69,7 +70,7 @@ $font-family-title:               'Arvo', serif;;
 
 $font-size-base:                  0.9375rem;
 
-$font-weight-base:                300;
+$font-weight-base:                400;
 $line-height-base:                1.9;
 
 $h1-font-size:                    $font-size-base * 2.75;
